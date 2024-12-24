@@ -27,13 +27,13 @@ const aboutData = [
 
 function AboutSection() {
   return (
-    <div className="flex flex-col justify-center items-center px-8 py-14 bg-slate-50 max-md:px-5 font-lato">
+    <div className="flex flex-col justify-center items-center px-8 py-14 bg-sky-50 max-md:px-5 font-lato">
       {/* Header Section */}
       <div className="flex flex-col justify-center py-7 max-w-full text-center w-[1080px]">
         <div className="flex flex-col px-10 w-full min-h-[1px] max-md:px-5 max-md:max-w-full">
           <div className="pb-2.5 w-full text-4xl font-bold leading-10 text-zinc-800 max-md:text-3xl">
             Leading Innovator of{" "}
-            <span className="text-cyan-500">Automated Solutions</span>
+            <span className="text-blue-700">Automated Solutions</span>
           </div>
           <div className="px-8 pb-px w-full text-base font-light leading-6 text-stone-500 max-md:px-5">
             With a wide range of automation services, we meet every need for

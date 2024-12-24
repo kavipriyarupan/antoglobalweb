@@ -60,7 +60,31 @@ const WaterIndustrySolution = React.lazy(() =>
     "../pages/solutions/component/solutionindividual/Waterindustrysolution"
   )
 );
+const CharityComponent = React.lazy(() =>
+  import("../pages/aboutus/component/hero/CharityComponent")
+);
+const Ourtech = React.lazy(() =>
+  import("../pages/aboutus/component/hero/Ourtech")
+);
+const Careers = React.lazy(() =>
+  import("../pages/aboutus/component/hero/Careers")
+);
 
+const PageLayoutcommon = React.lazy(() =>
+  import("../pages/aboutus/component/hero/PageLayoutcommon")
+);
+const Careerone = React.lazy(() =>
+  import("../pages/aboutus/component/hero/Careerone")
+);
+const Careertwo = React.lazy(() =>
+  import("../pages/aboutus/component/hero/Careertwo")
+);
+const Clients = React.lazy(() =>
+  import("../pages/aboutus/component/hero/Clients")
+);
+const Contactus = React.lazy(() =>
+  import("../pages/aboutus/component/hero/Contactus")
+);
 const route = [
   {
     path: "/",
@@ -78,6 +102,40 @@ const route = [
         path: "/aboutus",
         element: <Aboutus />,
       },
+      {
+        path: "/csr",
+        element: <CharityComponent />,
+      },
+      {
+        path: "/ourtech",
+        element: <Ourtech />,
+      },
+      {
+        path: "/careers",
+        element: <Careers />,
+      },
+      {
+        path: "/clients",
+        element: <Clients />,
+      },
+
+      {
+        path: "/pagelayout",
+        element: <PageLayoutcommon />,
+      },
+      {
+        path: "/careerone",
+        element: <Careerone />,
+      },
+      {
+        path: "/careertwo",
+        element: <Careertwo />,
+      },
+      {
+        path: "/contactus",
+        element: <Contactus />,
+      },
+
       {
         path: "/automotive",
         element: <AutomotiveSolutions />,

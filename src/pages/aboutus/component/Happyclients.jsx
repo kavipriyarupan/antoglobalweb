@@ -1,6 +1,6 @@
 import React from "react";
 import Ranelogo from "../assets/Ranelogo.png";
-import Mothersonimage from "../assets/Mothersonimage.png";
+import motherson from "../assets/motherson.png";
 import Magnaimage from "../assets/Magnaimage.png";
 import TVSimage from "../assets/TVSimage.png";
 import MRF from "../assets/MRF.png";
@@ -13,7 +13,7 @@ const HappyClients = () => {
   const clients = [
     { name: "mediaspectrum", logo: Ranelogo },
     { name: "Global", logo: TVSimage },
-    { name: "SpiralScout", logo: Mothersonimage },
+    { name: "SpiralScout", logo: motherson },
     { name: "AOG", logo: Magnaimage },
     { name: "MYLAPS", logo: Madraspharma },
     { name: "PageSuite", logo: SaintGobain },
@@ -23,12 +23,12 @@ const HappyClients = () => {
   ];
 
   return (
-    <section className="py-12 bg-white">
+    <section className="py-12 bg-sky-50">
       <div className="text-center">
-        <p className="text-sm text-blue-400 mb-2 font-medium">
+        <p className="text-lg text-blue-400 mb-2 font-medium">
           We're working with
         </p>
-        <h1 className="text-4xl font-bold mb-8 text-gray-900">
+        <h1 className="text-5xl font-bold mb-8 text-gray-900">
           Our Happy Clients
         </h1>
       </div>
@@ -48,8 +48,8 @@ const HappyClients = () => {
 
       {/* Button */}
       <div className="flex justify-center mt-8">
-        <button className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded-md font-medium transition">
-          ALL CLIENTS →
+        <button className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded-md font-bold transition ">
+          All Clients →
         </button>
       </div>
     </section>

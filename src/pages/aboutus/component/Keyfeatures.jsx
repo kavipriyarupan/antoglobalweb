@@ -3,7 +3,7 @@ import Allin1place from "../assets/Allin1place.png";
 import customizablesolutions from "../assets/customizablesolutions.png";
 import Innovation from "../assets/Innovation.png";
 import Quality from "../assets/Quality.png";
-import cuttingedgeautomation from "../assets/customizablesolutions.png";
+import cuttingedgeautomation from "../assets/cuttingedgeautomation.png";
 import Customersupport from "../assets/Customersupport.png";
 
 const KeyFeatures = () => {
@@ -18,11 +18,12 @@ const KeyFeatures = () => {
 
   return (
     <section className="py-12 bg-white">
-      <div className="text-center mb-8">
+      <div className="text-center mb-8 ">
         <h2 className="text-4xl font-bold text-blue-700">Key Features</h2>
         <p className="mt-[12px] text-gray-600 text-center max-w-3xl mx-auto">
           Unlock the power of advanced automation solutions. Enhance
-          productivity, optimize processes, and drive sustainable growth.
+          productivity, optimize processes, and drive sustainable growth.Lets
+          create something great together!
         </p>
       </div>
       <div className="max-w-4xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 px-4">
